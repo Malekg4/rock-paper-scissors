@@ -17,5 +17,10 @@ function getHumanChoice(){
     return choice;
 }
 
+let humanScore = 0;
+let computerScore = 0;
+
 console.log(getComputerChoice());
 console.log(getHumanChoice());
+console.log("Human Score:", humanScore);
+console.log("Computer Score:", computerScore);
