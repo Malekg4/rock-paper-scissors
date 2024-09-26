@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-    <Title>Rock Paper Scissors</Title>
-
-    <script src="main.js"></script>
-
-
-
-
+    <title>Rock Paper Scissors</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+        }
+        #buttonContainer {
+            display: flex; 
+            justify-content: center; /* Center horizontally */
+            margin-top: 20px; /* Add some top margin */
+        }
+        button { 
+            margin: 0 10px; /* Space between buttons */
+            padding: 10px 20px; 
+            font-size: 16px; 
+        }
+        #score, #result { 
+            margin-top: 20px; 
+            font-weight: bold; 
+        }
+    </style>
 </head>
-
 <body>
-
-
+    <h1>Rock Paper Scissors</h1>
+    <div id="score">Scores - Human: 0, Computer: 0</div>
+    <div id="result"></div>
+    <div id="buttonContainer"></div> <!-- Container for buttons -->
+    
+    <script src="main.js"></script>
 </body>
-
-
-
 </html>
